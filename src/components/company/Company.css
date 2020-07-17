@@ -1,0 +1,22 @@
+.Company{
+    min-width: 950px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.Company-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.Company-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Company-team-box{
+    padding: 40px;
+}

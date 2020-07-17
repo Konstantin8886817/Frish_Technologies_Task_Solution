@@ -1,0 +1,23 @@
+.TeamRow{
+    display: flex;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.TeamRow-name{
+    text-align: center;
+    flex-basis: 150px;
+    align-self: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+
+.TeamRow-steps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

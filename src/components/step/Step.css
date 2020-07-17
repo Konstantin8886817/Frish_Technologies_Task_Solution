@@ -1,0 +1,41 @@
+.Step{
+    flex-basis:100px;
+    margin: 10px 15px;
+    flex-shrink: 0;
+}
+.Step-circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Step-title{
+    align-self: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
+.Step-done{
+    border: 1px solid green;
+    background-color: #a8dea8;
+}
+
+.Step-progress{
+    border: 1px solid blue;
+    background-color: #bdbde8;
+}
+
+.Step-underline{
+    margin: 10px auto 0;
+    width: 70%;
+    height: 4px;
+    background: linear-gradient(90deg, rgba(0,67,255,1) 0%, rgba(0,0,0,1) 100%);
+}
